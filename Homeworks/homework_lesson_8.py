@@ -7,15 +7,14 @@ def function_that_calls_oops():
     try:
         oops()
     except IndexError:
-        print('ошибка IndexError')
+        print('ошибка IndexError\n')
     except KeyError:
-        print('ошибка KeyError')
+        print('ошибка KeyError\n')
 
 
 function_that_calls_oops()
 
 # Task 2
-
 
 def function_that_takes_in_two_numbers(a=input('number 1?\n'), b=input('number 2?\n')):
     try:
